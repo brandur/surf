@@ -1,0 +1,13 @@
+#content
+  - if item.photos.count > 0
+    #photos
+      - item.photos.each do |photo|
+        %a{ :href => photo['uri'] }
+          %img{ :src => photo['image'] }
+  #article
+    %h1= item.title
+    = yield 
+    %p.meta
+      = "Posted on #{item.created_at.strftime('%b %d %Y')}"
+      - if item.location
+        = " from #{item.location}"

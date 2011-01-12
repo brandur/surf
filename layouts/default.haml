@@ -1,0 +1,38 @@
+!!! 5
+%html
+  %head
+    %title= item.title
+    %meta{ 'content' => 'text/html; charset=utf-8', 'http-equiv' => 'Content-Type' }
+    %link{ :href => "#{conf.uri_prefix}atom.xml", :rel => 'alternate', :type => 'application/atom+xml' }
+    - styles.each do |style|
+      %link{ :href => style.uri, :media => 'screen', :rel => 'stylesheet', :type => 'text/css' }
+    - if item.respond_to?(:tiny) && item.tiny
+      %link{ :id => 'shorturl', :rev => 'canonical', :type => 'text/html', :href => "http://surf.brandur.org#{item.tiny}" }
+  %body
+    #outer_wrapper
+      #wrapper
+        #header_wrapper
+          %header
+            #header_content
+              #leader The
+              #title
+                %a{ :href => pages.find{ |p| p.name == 'index.html' }.uri } Surf
+              #subtitle surfing 0-60 in beautiful Costa Rica
+        = yield
+    #footer
+      #left
+        %img.profile{ :src => "#{conf.uri_prefix}assets/images/the_great_wave_off_kanagawa.jpg" }
+        #articles
+          %h2 Articles
+          %ul.articles
+            - articles.sort{ |a, b| a.created_at <=> b.created_at}.reverse.take(5).each do |article|
+              %li
+                %span.meta
+                  = article.created_at.strftime('%b %d %Y')
+                  &rarr;
+                = link_to article
+      #about
+        %h2 About
+        %p The Surf is the two week chronicle of one man's trip to Costa Rica to do what most landlocked Canadians can only dream of: learn to ride the waves of the Pacific Ocean. Having never stepped foot on a board, it's a personal challenge to see the kind of skill that can emerge given only determination, and two weeks of focus and hard work.
+        %p Provided that I can find a working Internet connection, I'll write about subjects like my experience building a skill from the scratch, whether skill in skiing carries over to surfing, Costa Rican natural history, and my observations on the lifestyles of more skillful surfers and instructors.
+        %p= "Read more at #{link_to articles.find{ |a| a.name == 'about-the-surf' }}."

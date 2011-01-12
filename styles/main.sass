@@ -1,0 +1,162 @@
+@mixin box-shadow($distance, $color)
+  -moz-box-shadow: 0 0 $distance $color
+  -webkit-box-shadow: 0 0 $distance $color
+  box-shadow: 0 0 $distance $color
+
+@mixin box-shadow-inset($distance, $color)
+  -moz-box-shadow: inset 0 0 $distance $color
+  -webkit-box-shadow: inset 0 0 $distance $color
+  box-shadow: inset 0 0 $distance $color
+
+a, a:hover, a:visited
+  color: #336699
+  text-decoration: underline
+
+a:hover
+  color: #fff
+  text-decoration: none
+
+img
+  border: 0
+
+ul.articles
+  list-style-type: none
+  padding: 0
+
+  span.meta
+    font-size: 13px
+
+body
+  background-color: #336699
+  color: #000
+  font-family: myriad-pro-1, myriad-pro-2, sans-serif
+  font-size: 17px
+  font-weight: 300
+  text-align: justify
+  min-width: 580px
+  margin: 0
+  padding: 0
+
+  h1, h2, h3, h4, h5, h6, #leader, #title, #subtitle
+    color: #fff
+    font-weight: 500
+    letter-spacing: -1px
+
+    a, a:visited, a:hover
+      background: transparent
+      color: #fff
+      text-decoration: none
+      padding: 0
+
+  h1, h2, h3, h4, h5, h6
+    font-weight: normal
+    line-height: 1.1em
+    margin: 0 0 10px 0
+    text-shadow: #000 0 0 2px
+
+  h1
+    margin: 0 0 30px 0
+
+  #leader, #title, #subtitle
+    text-shadow: #000 0 0 4px
+
+  #footer
+    color: #fff
+    max-width: 700px
+    font-size: 14px
+    line-height: 1.5em
+    padding: 40px
+    clear: both
+
+    a, a:visited, a:hover
+      color: #fff
+
+    h1, h2, h3, h4, h5, h6
+      text-align: center
+
+    #about
+      margin: 0 0 0 330px
+
+    #left
+      float: left
+      width: 300px
+
+      img.profile
+        margin: 0 0 20px 0
+        @include box-shadow(5px, rgba(0,0,0,0.9))
+
+      ul.articles
+
+        span.meta
+          color: #ccc
+          font-size: 11px
+
+  #outer_wrapper
+    background-color: #77aadd
+    padding: 0 0 20px 0
+    @include box-shadow(8px, rgba(0,0,0,0.8))
+
+    #wrapper
+      @include box-shadow(8px, rgba(0,0,0,0.8))
+      background-color: #99ccff
+      background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0.19, #99ccff), color-stop(0.91, #bbddff))
+      background-image: -moz-linear-gradient( left top, #99ccff 19%, #ddeeff 91%)
+
+      #content
+        max-width: 700px
+        line-height: 1.6em
+        padding: 40px
+
+        #article
+          margin: 0 0 0 125px
+
+          .figure
+            text-align: center
+
+            img
+              @include box-shadow(5px, rgba(0,0,0,0.9))
+
+          p.meta
+            color: #336699
+            font-size: 13px
+
+        #photos
+          float: left
+          text-align: center
+          width: 95px
+          margin: -40px 0 -40px 0
+          padding: 5px 0 0 0
+          background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.18, rgb(119,170,221)), color-stop(0.91, rgba(255,255,255, 0)))
+          background-image: -moz-linear-gradient( center top, rgb(119,170,221) 18%, rgba(255,255,255,0) 91%)
+
+          img
+            @include box-shadow(3px, rgba(0,0,0,0.9))
+            margin: 5px 0 5px 0
+
+      #header_wrapper
+        background: #77aadd
+        background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0.19, #77aadd), color-stop(0.91, #ffffff))
+        background-image: -moz-linear-gradient( left top, #77aadd 19%, #ffffff 91%)
+        @include box-shadow(50px, rgba(0,0,0,0.4))
+
+        /* AKA "header", unfortunately IE doesn't like that */
+        #header_content
+          padding: 40px
+
+          #leader
+            font-size: 20px
+            line-height: 0.8em
+
+          #title
+            font-size: 260px
+            font-weight: 200
+            letter-spacing: -15px
+            line-height: 0.9em
+
+          #subtitle
+            color: #336699
+            font-size: 18px
+            font-style: italic
+            text-shadow: #fff 0 0 3px
+            margin: -20px 0 0 200px
+

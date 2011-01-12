@@ -1,0 +1,9 @@
+#content
+  %h1 Newest Articles
+  %ul.articles
+    - articles.sort{ |a, b| a.created_at <=> b.created_at}.reverse.take(10).each do |article|
+      %li
+        %span.meta
+          = article.created_at.strftime('%b %d %Y')
+          &rarr;
+        = link_to article

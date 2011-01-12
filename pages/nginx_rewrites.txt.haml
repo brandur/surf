@@ -1,0 +1,3 @@
+- articles.each do |article|
+  - if article.tiny
+    = "rewrite ^#{conf.uri_prefix}#{article.tiny}$ #{article.uri} permanent;"

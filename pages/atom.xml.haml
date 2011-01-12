@@ -1,0 +1,19 @@
+!!! xml
+%feed{ :xmlns => 'http://www.w3.org/2005/Atom' }
+  %id http://surf.brandur.org/
+  %title The Surf
+  %updated= Time.now.getutc.strftime("%Y-%m-%dT%H:%M:%SZ")
+  %link{ :rel => 'alternate', :href => 'http://surf.brandur.org/' }
+  %link{ :rel => 'self', :href => 'http://surf.brandur.org/atom.xml' }
+  %author
+    %name Brandur Leach
+    %uri http://brandur.org
+  - articles.sort{ |a, b| a.created_at <=> b.created_at}.reverse.take(10).each do |article|
+    %entry
+      %id= "tag:surf.brandur.org,#{article.created_at.getutc.strftime("%Y-%m-%d")}:#{article.uri}"
+      %title{ :type => 'html' }= article.title
+      %published= article.created_at.getutc.strftime("%Y-%m-%dT%H:%M:%SZ")
+      %updated= article.updated_at.getutc.strftime("%Y-%m-%dT%H:%M:%SZ")
+      %link{ :rel => 'alternate', :href => article.uri }
+      %content{ :type => 'html' }
+        &= article.render

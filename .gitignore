@@ -1,0 +1,5 @@
+.bundle
+current_article
+current_article.yaml
+Gemfile.lock
+ruby
