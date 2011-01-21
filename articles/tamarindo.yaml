@@ -2,3 +2,16 @@ title: Tamarindo
 created_at: January 21, 2011 05:12
 location: Tamarindo
 tiny: a/tamarindo
+photos:
+  - image: http://farm6.static.flickr.com/5090/5375257842_87907cd149_s.jpg
+    uri: http://www.flickr.com/photos/brandurleach/5375257842/in/set-72157625747643523/
+  - image: http://farm6.static.flickr.com/5002/5374649271_880ae54dd4_s.jpg
+    uri: http://www.flickr.com/photos/brandurleach/5374649271/in/set-72157625747643523/
+  - image: http://farm6.static.flickr.com/5042/5374649275_2173d671e1_s.jpg
+    uri: http://www.flickr.com/photos/brandurleach/5374649275/in/set-72157625747643523/
+  - image: http://farm6.static.flickr.com/5170/5374649281_eaaee0fdda_s.jpg
+    uri: http://www.flickr.com/photos/brandurleach/5374649281/in/set-72157625747643523/
+  - image: http://farm6.static.flickr.com/5203/5374649277_0fae9563a2_s.jpg
+    uri: http://www.flickr.com/photos/brandurleach/5374649277/in/set-72157625747643523/
+  - image: http://farm6.static.flickr.com/5249/5374649285_437ee9dc65_s.jpg
+    uri: http://www.flickr.com/photos/brandurleach/5374649285/in/set-72157625747643523/
