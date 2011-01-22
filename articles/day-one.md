@@ -6,7 +6,7 @@ We made it out for three separate surfing sessions, and one swimming session. In
 
 After finishing up surfing, we cruised over to Eat at Joe's for some great happy hour deals (lots of food and rink for what turned out to be around $10 USD per person). Despite everyone talking about partying big tonight, we mostly hung out around Hotel Zullymar listening to downbeat tunes on someone's iPod dock. Despite a lot of talk about beating out last night in terms of partying, almost everyone went to bed early with notable exception of our usual troopers from New Zealand and San Francisco.
 
-I reflected today that the difference between Tamarindo and a Mexican city like Cozumel (which I visited recently) were shocking. The junk salespeople are much less persistent (read: annoying), but certainly still present around the city's streets. Tamarindo is still close-kint and doesn't require the major gasoline infrastructure needed to get around the city in Cozumel (mostly via scooter).
+I reflected today that the difference between Tamarindo and a Mexican city like Cozumel (which I visited recently) were surprisingly large. The junk salespeople are much less persistent (read: annoying), but certainly still present around the city's streets. I think this is largely the result of people being more laid back. Tamarindo is still close-kint and doesn't require the major gasoline infrastructure needed to get around the city in Cozumel (mostly via scooter). This makes for a great tourist town where you can walk anywhere with no problem. The third major difference is that I've never been offered so many drugs anywhere on Earth as in Tamarindo.
 
 Tomorrow we leave on our bus ride to surfing location #2: Guiones.
 

@@ -8,5 +8,5 @@ We arrived back at the compound had some nice discussion to wind down the night.
 
 The sun is rising. Our first surfing lesson starts at 2 PM tomorrow (or today rather). It's going to be a good trip.
 
-<div class="figure_plain"><a href="http://www.flickr.com/photos/brandurleach/5374649275/"><img src="http://farm6.static.flickr.com/5042/5374649275_2173d671e1_z.jpg" /></a></div>
+<div class="figure_plain"><a href="http://www.flickr.com/photos/brandurleach/5374649275/"><img src="http://farm6.static.flickr.com/5042/5374649275_2173d671e1.jpg" /></a></div>
 
