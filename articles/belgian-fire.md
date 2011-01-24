@@ -1,0 +1,10 @@
+Tonight, our group was invited down to a bonfire on the beach put together by a couple surfers from Belgium and another from Toronto. It took us a little while to build enough initiative to leave our hut, but we eventually made it down to what turned out to be a stunningly beautiful experience. The picturesque fire was built overlooking the ocean and under a cloudless night sky.
+
+After the others from my group had left, I had a nice conversation about life and travel that started when I saw how appalled they were that I was only going to be in Costa Rica for two weeks. I asked them how they made the time and money to travel for three or four months at at time, and got a variety of answers. The first thing I was told, is that to save money, don't hang about in Costa Rica, it's horrendously expensive compared to southeast Asia, or even Panama.
+
+In terms of time, it seems like most of them had finished school somewhat recently, and were still travelling in the time before taking their first job. They'd work a bit harder during the school year and saved the money to finance the operation. I think this concept is key, I took a bit of time off after school, but have learnt that the optimal thing to do would've been to stretch that time as long as possible before entering the work force. In practice it's a difficult thing to do because once you've secured a job, the company wants you on board _yesterday_. I've never really understood this sentiment, because one more employee makes almost no difference to the day to day operations of most companies.
+
+I mentioned the concept of bootstrapping a startup in a cheap country like Panama and the guys could think of a few examples of some people who were either doing that, or other IT related work like running websites or remote IT services. I'll have to make sure to keep that one in mind.
+
+I can't shake the feeling that the life we live in Canada is too hectic and moves too fast. Laying on the beach under the stars, in front of a roaring fire, gives you the introspective time that simply doesn't exist in the first world.
+
