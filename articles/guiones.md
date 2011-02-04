@@ -1,4 +1,4 @@
-_Note_: the full set of photos doesn't fit on the left, so please jump over to my [Guiones set on Flickr](http://www.flickr.com/photos/brandurleach/sets/72157625975582966/) to see the rest.
+<p class="note"><em>Note</em> &mdash; the full set of photos doesn't fit on the left, so please jump over to my <a href="http://www.flickr.com/photos/brandurleach/sets/72157625975582966/">Guiones set on Flickr</a> to see the rest.</p>
 
 Our trip's second stop was a small town by the name of Playa Guiones (or simply Guiones), a rural place along the Pacific coast that was built solely around the large and consistent waves off the coast that make for ideal surfing. At any given time during dry season, a huge portion of the town's population are English-speaking surfers who are generally very friendly and make interesting conversationalists.
 
